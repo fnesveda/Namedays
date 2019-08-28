@@ -1,0 +1,72 @@
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Hlavní menu";
+
+/* Class = "NSMenuItem"; title = "Namedays"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Svátky";
+
+/* Class = "NSMenu"; title = "Namedays"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Svátky";
+
+/* Class = "NSMenuItem"; title = "About Namedays"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "O aplikaci Svátky";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Předvolby…";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Služby";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Služby";
+
+/* Class = "NSMenuItem"; title = "Hide Namedays"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Skrýt Svátky";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Skrýt ostatní";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Zobrazit vše";
+
+/* Class = "NSMenuItem"; title = "Quit Namedays"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Ukončit Svátky";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "sSk-F8-tDB"; */
+"sSk-F8-tDB.title" = "Úpravy";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "hOP-wR-oaK"; */
+"hOP-wR-oaK.title" = "Úpravy";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "8dw-C4-6Ig"; */
+"8dw-C4-6Ig.title" = "Odvolat akci";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "0mK-hp-Vuz"; */
+"0mK-hp-Vuz.title" = "Zopakovat akci";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "IOr-rm-YV0"; */
+"IOr-rm-YV0.title" = "Vyjmout";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "TWd-9a-pLK"; */
+"TWd-9a-pLK.title" = "Zkopírovat";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "UsY-B3-GFk"; */
+"UsY-B3-GFk.title" = "Vložit";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "6hB-T1-dTD"; */
+"6hB-T1-dTD.title" = "Vložit a použít styl";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "VYk-JD-fXx"; */
+"VYk-JD-fXx.title" = "Odstranit";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "G2h-Wh-nG2"; */
+"G2h-Wh-nG2.title" = "Vybrat vše";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "Xyf-Zb-fZf"; */
+"Xyf-Zb-fZf.title" = "Okno";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "OWF-bn-Rdo"; */
+"OWF-bn-Rdo.title" = "Okno";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "gav-pe-hBf"; */
+"gav-pe-hBf.title" = "Zavřít";

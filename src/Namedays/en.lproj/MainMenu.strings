@@ -1,0 +1,72 @@
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "Main Menu";
+
+/* Class = "NSMenuItem"; title = "Namedays"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "Namedays";
+
+/* Class = "NSMenu"; title = "Namedays"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "Namedays";
+
+/* Class = "NSMenuItem"; title = "About Namedays"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About Namedays";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "Preferences…";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "NMo-om-nkz"; */
+"NMo-om-nkz.title" = "Services";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "hz9-B4-Xy5"; */
+"hz9-B4-Xy5.title" = "Services";
+
+/* Class = "NSMenuItem"; title = "Hide Namedays"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide Namedays";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "Hide Others";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "Show All";
+
+/* Class = "NSMenuItem"; title = "Quit Namedays"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit Namedays";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "sSk-F8-tDB"; */
+"sSk-F8-tDB.title" = "Edit";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "hOP-wR-oaK"; */
+"hOP-wR-oaK.title" = "Edit";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "8dw-C4-6Ig"; */
+"8dw-C4-6Ig.title" = "Undo";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "0mK-hp-Vuz"; */
+"0mK-hp-Vuz.title" = "Redo";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "IOr-rm-YV0"; */
+"IOr-rm-YV0.title" = "Cut";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "TWd-9a-pLK"; */
+"TWd-9a-pLK.title" = "Copy";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "UsY-B3-GFk"; */
+"UsY-B3-GFk.title" = "Paste";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "6hB-T1-dTD"; */
+"6hB-T1-dTD.title" = "Paste and Match Style";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "VYk-JD-fXx"; */
+"VYk-JD-fXx.title" = "Delete";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "G2h-Wh-nG2"; */
+"G2h-Wh-nG2.title" = "Select All";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "Xyf-Zb-fZf"; */
+"Xyf-Zb-fZf.title" = "Window";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "OWF-bn-Rdo"; */
+"OWF-bn-Rdo.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "gav-pe-hBf"; */
+"gav-pe-hBf.title" = "Close";

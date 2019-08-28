@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PreferencesWindowController" customModule="Namedays" customModuleProvider="target">
+            <connections>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+            <view key="contentView" wantsLayer="YES" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="338" height="89"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZL-eZ-8Of">
+                        <rect key="frame" x="10" y="10" width="318" height="69"/>
+                        <subviews>
+                            <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="jRE-c3-DQP">
+                                <rect key="frame" x="0.0" y="35" width="318" height="34"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" horizontalCompressionResistancePriority="999" translatesAutoresizingMaskIntoConstraints="NO" id="GbG-sC-Go2">
+                                        <rect key="frame" x="8" y="8" width="56" height="18"/>
+                                        <buttonCell key="cell" type="check" title="Show" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="fB2-Qq-nOi">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <binding destination="aF5-dC-h6z" name="value" keyPath="values.showFutureNamedays" id="dcp-DM-JYL"/>
+                                        </connections>
+                                    </button>
+                                    <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rYC-XF-b8k">
+                                        <rect key="frame" x="70" y="6" width="40" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="dFB-bf-yw7"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" focusRingType="none" alignment="right" drawsBackground="YES" id="C1i-05-NuQ">
+                                            <numberFormatter key="formatter" formatterBehavior="default10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="3" id="aU7-Rz-5Zh">
+                                                <real key="minimum" value="0.0"/>
+                                                <real key="maximum" value="100"/>
+                                            </numberFormatter>
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <binding destination="aF5-dC-h6z" name="value" keyPath="values.namedaysToDisplay" id="0CH-NF-3CR"/>
+                                            <binding destination="aF5-dC-h6z" name="enabled" keyPath="values.showFutureNamedays" id="l4U-6V-O98"/>
+                                        </connections>
+                                    </textField>
+                                    <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="HKn-qF-JZQ">
+                                        <rect key="frame" x="107" y="4" width="19" height="27"/>
+                                        <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="1" id="F4Z-yX-p4U">
+                                            <connections>
+                                                <binding destination="aF5-dC-h6z" name="value" keyPath="values.namedaysToDisplay" id="fzi-mW-MDi"/>
+                                            </connections>
+                                        </stepperCell>
+                                        <connections>
+                                            <binding destination="aF5-dC-h6z" name="enabled" keyPath="values.showFutureNamedays" id="MsG-WC-YI7"/>
+                                        </connections>
+                                    </stepper>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="h2n-ho-CP0">
+                                        <rect key="frame" x="129" y="9" width="181" height="17"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="future namedays in the menu" id="GU5-Ef-Za4">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="h2n-ho-CP0" firstAttribute="firstBaseline" secondItem="GbG-sC-Go2" secondAttribute="firstBaseline" id="0J4-0c-xDi"/>
+                                    <constraint firstItem="rYC-XF-b8k" firstAttribute="leading" secondItem="GbG-sC-Go2" secondAttribute="trailing" constant="8" id="2PO-w2-04i"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h2n-ho-CP0" secondAttribute="trailing" constant="10" id="Cgg-W5-bI7"/>
+                                    <constraint firstAttribute="bottom" secondItem="GbG-sC-Go2" secondAttribute="bottom" constant="10" id="Dt2-fg-16V"/>
+                                    <constraint firstItem="GbG-sC-Go2" firstAttribute="top" secondItem="jRE-c3-DQP" secondAttribute="top" constant="10" id="SNn-U6-Kf7"/>
+                                    <constraint firstItem="GbG-sC-Go2" firstAttribute="leading" secondItem="jRE-c3-DQP" secondAttribute="leading" constant="10" id="U3U-sI-sqR"/>
+                                    <constraint firstItem="GbG-sC-Go2" firstAttribute="firstBaseline" secondItem="rYC-XF-b8k" secondAttribute="firstBaseline" id="UAd-6W-Rdd"/>
+                                    <constraint firstItem="HKn-qF-JZQ" firstAttribute="leading" secondItem="rYC-XF-b8k" secondAttribute="trailing" id="Ub9-r1-CMD"/>
+                                    <constraint firstItem="h2n-ho-CP0" firstAttribute="leading" secondItem="HKn-qF-JZQ" secondAttribute="trailing" constant="8" id="efc-Cu-qCh"/>
+                                    <constraint firstItem="rYC-XF-b8k" firstAttribute="centerY" secondItem="HKn-qF-JZQ" secondAttribute="centerY" id="xf3-m4-HqV"/>
+                                    <constraint firstAttribute="trailing" secondItem="h2n-ho-CP0" secondAttribute="trailing" priority="250" constant="10" id="yfU-xE-jTW"/>
+                                </constraints>
+                            </customView>
+                            <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="UmV-bw-TXi">
+                                <rect key="frame" x="0.0" y="34" width="318" height="1"/>
+                                <subviews>
+                                    <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="c5V-jg-wxh">
+                                        <rect key="frame" x="0.0" y="-2" width="318" height="5"/>
+                                    </box>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="c5V-jg-wxh" firstAttribute="top" secondItem="UmV-bw-TXi" secondAttribute="top" id="32L-CT-l1T"/>
+                                    <constraint firstAttribute="bottom" secondItem="c5V-jg-wxh" secondAttribute="bottom" id="7sJ-UW-LG3"/>
+                                    <constraint firstAttribute="trailing" secondItem="c5V-jg-wxh" secondAttribute="trailing" id="LiJ-Oe-khz"/>
+                                    <constraint firstItem="c5V-jg-wxh" firstAttribute="leading" secondItem="UmV-bw-TXi" secondAttribute="leading" id="ohf-IZ-cN8"/>
+                                </constraints>
+                            </customView>
+                            <customView placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="infinite" translatesAutoresizingMaskIntoConstraints="NO" id="8ca-ZF-XaL">
+                                <rect key="frame" x="0.0" y="0.0" width="318" height="34"/>
+                                <subviews>
+                                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Rtf-1G-NQr">
+                                        <rect key="frame" x="8" y="8" width="115" height="18"/>
+                                        <buttonCell key="cell" type="check" title="Launch at login" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="AjY-vx-L5A">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                            <connections>
+                                                <binding destination="-2" name="value" keyPath="self.sharedLoginItemManager.isEnabled" id="Om2-Fi-RQu">
+                                                    <dictionary key="options">
+                                                        <string key="NSValueTransformerName">LoginItemCheckboxTransformer</string>
+                                                    </dictionary>
+                                                </binding>
+                                            </connections>
+                                        </buttonCell>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rtf-1G-NQr" secondAttribute="trailing" constant="10" id="G7g-c5-NgG"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rtf-1G-NQr" secondAttribute="bottom" constant="10" id="Z9D-2z-hGk"/>
+                                    <constraint firstItem="Rtf-1G-NQr" firstAttribute="leading" secondItem="8ca-ZF-XaL" secondAttribute="leading" constant="10" id="hNJ-UB-eSy"/>
+                                    <constraint firstItem="Rtf-1G-NQr" firstAttribute="top" secondItem="8ca-ZF-XaL" secondAttribute="top" constant="10" id="vst-aS-dJC"/>
+                                </constraints>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="UmV-bw-TXi" secondAttribute="trailing" id="4ko-7K-a41"/>
+                            <constraint firstAttribute="trailing" secondItem="8ca-ZF-XaL" secondAttribute="trailing" id="Meq-7p-uT8"/>
+                            <constraint firstItem="8ca-ZF-XaL" firstAttribute="leading" secondItem="UZL-eZ-8Of" secondAttribute="leading" id="W0z-KU-9nd"/>
+                            <constraint firstItem="jRE-c3-DQP" firstAttribute="leading" secondItem="UZL-eZ-8Of" secondAttribute="leading" id="ZuJ-8J-Kui"/>
+                            <constraint firstAttribute="trailing" secondItem="jRE-c3-DQP" secondAttribute="trailing" id="hho-Z9-1kE"/>
+                            <constraint firstItem="UmV-bw-TXi" firstAttribute="leading" secondItem="UZL-eZ-8Of" secondAttribute="leading" id="wUr-lE-FUf"/>
+                        </constraints>
+                        <visibilityPriorities>
+                            <integer value="1000"/>
+                            <integer value="1000"/>
+                            <integer value="1000"/>
+                        </visibilityPriorities>
+                        <customSpacing>
+                            <real value="3.4028234663852886e+38"/>
+                            <real value="3.4028234663852886e+38"/>
+                            <real value="3.4028234663852886e+38"/>
+                        </customSpacing>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UZL-eZ-8Of" firstAttribute="leading" secondItem="se5-gp-TjO" secondAttribute="leading" constant="10" id="Kpu-UN-DAc"/>
+                    <constraint firstAttribute="bottom" secondItem="UZL-eZ-8Of" secondAttribute="bottom" constant="10" id="RAv-rf-wQW"/>
+                    <constraint firstItem="UZL-eZ-8Of" firstAttribute="top" secondItem="se5-gp-TjO" secondAttribute="top" constant="10" id="UEY-HH-v5P"/>
+                    <constraint firstAttribute="trailing" secondItem="UZL-eZ-8Of" secondAttribute="trailing" constant="10" id="W9G-CY-kB4"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="0bl-1N-AYu"/>
+                <outlet property="initialFirstResponder" destination="se5-gp-TjO" id="YAg-sK-ZmV"/>
+            </connections>
+        </window>
+        <userDefaultsController representsSharedInstance="YES" id="aF5-dC-h6z"/>
+    </objects>
+</document>
