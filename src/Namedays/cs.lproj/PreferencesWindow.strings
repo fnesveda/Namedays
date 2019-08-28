@@ -1,0 +1,12 @@
+
+/* Class = "NSButtonCell"; title = "Launch at login"; ObjectID = "AjY-vx-L5A"; */
+"AjY-vx-L5A.title" = "Spustit při startu systému";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Předvolby";
+
+/* Class = "NSTextFieldCell"; title = "future namedays in the menu"; ObjectID = "GU5-Ef-Za4"; */
+"GU5-Ef-Za4.title" = "příštích svátků v nabídce";
+
+/* Class = "NSButtonCell"; title = "Show"; ObjectID = "fB2-Qq-nOi"; */
+"fB2-Qq-nOi.title" = "Zobrazit";

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Namedays
+
+  Created by František Nesveda on 04.10.18.
+  Copyright © 2018 František Nesveda. All rights reserved.
+*/
+/* Localized Bundle Display Name */
+"CFBundleDisplayName" = "Svátky";
